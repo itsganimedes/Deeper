@@ -1,0 +1,30 @@
+:root {
+    --bg-gradient-start: #1b1612;
+    --bg-gradient-end: #292019;
+    --glow-color: rgba(160, 82, 45, 0.25);
+    --accent-primary: #d4a373;
+    --accent-border: #8b4513;
+    --text-title: #f4f1de;
+    --text-badge: #1b1612;
+    --text-body: #c2b8a3;
+    --nav-bg: rgba(27, 22, 18, 0.75);
+    --nav-text: #e6dfd3;
+    --nav-hover: #d4a373;
+    --shadow-color: rgba(0, 0, 0, 0.7);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
