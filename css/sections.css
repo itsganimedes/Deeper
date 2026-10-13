@@ -1,3 +1,41 @@
+.time_box{
+    width: fit-content;
+    height: 10rem;
+    margin: 3rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid var(--accent-border);
+    border-radius: 18px;
+    box-shadow: 0 4px 6px rgb(0,0,0,0.2);
+    padding: 2rem;
+}
+
+.time_box i{
+    color: var(--accent-border);
+    font-size: 2rem;
+    margin: 1rem 0 2rem;
+}
+
+.time_box p:nth-child(2)
+{
+    font-size: 0.9rem;
+    letter-spacing: 2px;
+}
+
+
+.time_box p:nth-child(3)
+{
+    font-size: 2rem;
+}
+
+.time_box p{
+    margin: 0 !important;
+    line-height: 1.2 !important;
+}
+
+
 .content-section {
     padding: 6rem 2rem;
     display: flex;
