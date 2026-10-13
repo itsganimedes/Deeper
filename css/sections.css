@@ -35,6 +35,13 @@
     line-height: 1.2 !important;
 }
 
+@media (max-width: 600px) {
+    .time_box p:nth-child(3)
+    {
+        font-size: 1.2rem;
+    }
+}
+
 
 .content-section {
     padding: 6rem 2rem;
